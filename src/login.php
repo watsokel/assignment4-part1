@@ -10,7 +10,7 @@ echo '<html>';
 	echo '<body>';
 		echo '<form action="content1.php" method="post">';
 		echo '<input type="text" name="username" placeholder="Enter Username">';
-		echo '<input type="submit" value="Login">';
+		echo '<input type="submit" name="submit" value="Login">';
 		echo '</form>';
 	echo '</body>';
 echo '</html>';
