@@ -1,37 +1,65 @@
+Task Log (CS290, PHP Assignment 4)
 
-Start:
+Start: Thu, 30 Apr 2015 11:30:00 -0700
+End: Thu, 30 Apr 2015 14:42:18 -0700
+Tasks: Created content2.php, and corrected code for content1.php. Originally, I was checking for an active session, but that logic is incorrect. I should be checking for parameters inside the $_POST and $_SESSION arrays to assess the login status of the user.
+
+Start: Thu, 30 Apr 2015 00:45:00 -0700
+End: Thu, 30 Apr 2015 01:16:12 -0700
+Tasks: added logic to take into account already logged in users
+
+Start: Thu, 30 Apr 2015 00:36:00 -0700
+End: Thu, 30 Apr 2015 00:41:40 -0700
+Tasks: debugging login.php, figured out why username was not printing
+
+Start:  Thu, 30 Apr 2015 00:37:00 -0700
+End: Thu, 30 Apr 2015 00:38:00 -0700
+Tasks: Updated the task log.
+
+Start: Thu, 29 Apr 2015 21:00:00 -0700
 End: Thu, 30 Apr 2015 00:35:25 -0700
-Tasks: attempting to correct logic in content1.php. I've managed to get the header() function worki
-Start:
+Tasks: attempting to correct logic in content1.php. I've managed to get the header() function working to redirect the user to login.php
+
+Start: Wed, 29 Apr 2015 22:39:00 -0700
 End: Wed, 29 Apr 2015 22:48:21 -0700
-Tasks: Added the message and URL to redirect user back to login.php when NULL or empty string input
-Start:
+Tasks: Added the message and URL to redirect user back to login.php when NULL or or empty string inputted.
+
+Start: Wed, 29 Apr 2015 22:15:00 -0700
 End: Wed, 29 Apr 2015 22:38:54 -0700
 Tasks: added logic to check if username empty, null, or not set
-Start:
+
+Start: Wed, 29 Apr 2015 22:13:00 -0700
 End: Wed, 29 Apr 2015 22:14:50 -0700
 Tasks: created content1.php
-Start:
+
+Start: Wed, 29 Apr 2015 20:30:00 -0700
 End: Wed, 29 Apr 2015 22:13:58 -0700
-Tasks: created and worked on multtable.php. Changed flawed logic of using one variable to verify al
-Start:
+Tasks: created and worked on multtable.php. Changed flawed logic of using one variable to verify all conditions met. Instead, created separate boolean variables for each condition.
+
+Start: Wed, 29 Apr 2015 22:00:00 -0700
 End: Wed, 29 Apr 2015 22:11:12 -0700
 Tasks: created HTML form for login.php
-Start:
+
+Start: Wed, 29 Apr 2015 21:47:03 -0700
 End: Wed, 29 Apr 2015 21:47:03 -0700
 Tasks: added functionality to check if input is GET or POST
-Start:
+
+Start: Wed, 29 Apr 2015 20:40:00 -0700
 End: Wed, 29 Apr 2015 20:48:15 -0700
 Tasks: created loopback.php
-Start:
+
+Start: Wed, 29 Apr 2015 20:40:00 -0700
 End: Wed, 29 Apr 2015 20:45:03 -0700
 Tasks: created src folder and multtable.php
-Start:
+
+Start: Wed, 29 Apr 2015 20:43:00 -0700
 End: Wed, 29 Apr 2015 20:43:42 -0700
 Tasks: Merge branch 'master' of https://github.com/watsokel/assignment4-part1
-Start:
+
+Start: Wed, 29 Apr 2015 20:40:12 -0700
 End: Wed, 29 Apr 2015 20:41:12 -0700
 Tasks: created log.txt
-Start:
+
+Start: Wed, 29 Apr 2015 20:38:10 -0700
 End: Wed, 29 Apr 2015 20:38:11 -0700
 Tasks: Initial commit
