@@ -1,3 +1,37 @@
-Start: Wed, 29 Apr 2015 20:41:12 -0700
+
+Start:
+End: Thu, 30 Apr 2015 00:35:25 -0700
+Tasks: attempting to correct logic in content1.php. I've managed to get the header() function worki
+Start:
+End: Wed, 29 Apr 2015 22:48:21 -0700
+Tasks: Added the message and URL to redirect user back to login.php when NULL or empty string input
+Start:
+End: Wed, 29 Apr 2015 22:38:54 -0700
+Tasks: added logic to check if username empty, null, or not set
+Start:
+End: Wed, 29 Apr 2015 22:14:50 -0700
+Tasks: created content1.php
+Start:
+End: Wed, 29 Apr 2015 22:13:58 -0700
+Tasks: created and worked on multtable.php. Changed flawed logic of using one variable to verify al
+Start:
+End: Wed, 29 Apr 2015 22:11:12 -0700
+Tasks: created HTML form for login.php
+Start:
+End: Wed, 29 Apr 2015 21:47:03 -0700
+Tasks: added functionality to check if input is GET or POST
+Start:
+End: Wed, 29 Apr 2015 20:48:15 -0700
+Tasks: created loopback.php
+Start:
+End: Wed, 29 Apr 2015 20:45:03 -0700
+Tasks: created src folder and multtable.php
+Start:
+End: Wed, 29 Apr 2015 20:43:42 -0700
+Tasks: Merge branch 'master' of https://github.com/watsokel/assignment4-part1
+Start:
 End: Wed, 29 Apr 2015 20:41:12 -0700
 Tasks: created log.txt
+Start:
+End: Wed, 29 Apr 2015 20:38:11 -0700
+Tasks: Initial commit
