@@ -4,8 +4,12 @@ ini_set('display_errors',1);
 
 echo 'test<br>';
 
+$userName = $_POST['username'];
+
 var_dump($_POST);
-if(!(isset($_POST['username']) || $_POST['username']==NULL)){
-	echo 'A username must be entered.';
+if(empty($userName)){
+	echo 'A username must be entered. Click <a href="login.php">here</a> to return to the login screen.';
+} else {
+	echo "Hello $userName, ";
 }
 ?>
