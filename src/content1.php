@@ -18,21 +18,20 @@ if(isset($_POST['submit'])){ //accessed content1 through login form
 		++$_SESSION['visits'];
 		echo '<h1>Content1.php</h1>';
 		echo "Hello $_SESSION[username], you have visited this page $_SESSION[visits] times.";	
-		echo ' Click <a href="login.php?logout=true">here</a> to logout.';
-		echo ' Click <a href="content2.php">here</a> to go to content2.php.';
+		echo '<p> Click <a href="content2.php">here</a> to go to content2.php.</p>';
+		echo '<p> Click <a href="login.php?logout=true">here</a> to logout.</p>';
 	}	
 } else{ //navigated to content1  directly
 	if(isset($_SESSION['loggedIn']) && $_SESSION['loggedIn']==true){
 		++$_SESSION['visits'];
 		echo '<h1>Content1.php</h1>';
 		echo "Hello $_SESSION[username], you have visited this page $_SESSION[visits] times.";	
-		echo ' Click <a href="content2.php">here</a> to go to content2.php.';	
-		echo ' Click <a href="login.php?logout=true">here</a> to logout.';
+		echo '<p> Click <a href="content2.php">here</a> to go to content2.php.</p>';	
+		echo '<p> Click <a href="login.php?logout=true">here</a> to logout.</p>';
 	}
 	if(!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn']==false){
 		$_SESSION = array();
-		session_destroy();
-		header('Location: https://web.engr.oregonstate.edu/~watsokel/cs290a4/login.php');
+		header('Location: https://web.engr.oregonstate.edu/~watsokel/cs290a4/login.php?redirected=true');
 	}
 }
 ?>

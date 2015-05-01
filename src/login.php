@@ -9,11 +9,7 @@ if(session_status()==PHP_SESSION_ACTIVE){
 		$_SESSION = array();
 		session_destroy();
 	}
-//	else{	
-//		header('Location: https://web.engr.oregonstate.edu/~watsokel/cs290a4/content1.php');
-//	}	
 }
-
 	echo '<html>';
 	echo '<head>';
 		echo '<meta charset="UTF-8">';
@@ -24,7 +20,9 @@ if(session_status()==PHP_SESSION_ACTIVE){
 		echo '<input type="text" name="uName" placeholder="Enter Username">';
 		echo '<input type="submit" name="submit" value="Login">';
 		echo '</form>';
+    if(isset($_GET['redirected']) && $_GET['redirected'] == true) {
+      echo '<p>You must log in to access content pages.</p>';
+    }
 	echo '</body>';
 echo '</html>';
-
 ?>
