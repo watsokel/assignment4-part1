@@ -1,5 +1,9 @@
 Task Log (CS290, PHP Assignment 4)
 
+Start: Thu, 30 Apr 2015 15:00:00 -0700
+End: Thu, 30 Apr 2015 17:15:32 -0700
+Tasks: Corrected logic error in loopback.php (placed $_GET in both if construct instead of one $_GET and one $_POST). Fixed the problem with users maintaining the same page visit count in the login/content portion of the assignment.
+
 Start: Thu, 30 Apr 2015 11:30:00 -0700
 End: Thu, 30 Apr 2015 14:42:18 -0700
 Tasks: Created content2.php, and corrected code for content1.php. Originally, I was checking for an active session, but that logic is incorrect. I should be checking for parameters inside the $_POST and $_SESSION arrays to assess the login status of the user.
