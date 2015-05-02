@@ -5,12 +5,12 @@ ini_set('display_errors',1);
 session_start();
 
 if(isset($_POST['submit'])){ //accessed content1 through login form
-	if(empty($_POST['uName'])){
+	if(empty($_POST['username'])){
 		echo '<h1>Content1.php</h1>';
 		echo 'A username must be entered. Click <a href="login.php">here</a> to return to the login screen.';
 		session_destroy();
 	} else {
-		$_SESSION['username'] = $_POST['uName'];
+		$_SESSION['username'] = $_POST['username'];
 		$_SESSION['loggedIn'] = true;		
 		if(!isset($_SESSION['visits'])){
 			$_SESSION['visits'] = 0;

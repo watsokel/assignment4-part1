@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors',1);
 
 echo "<h1>Multiplication Table</h1>";
 echo '<p>Programmed by Kelvin Watson</p>';
@@ -50,7 +48,7 @@ if(!(int)$_GET['max-multiplier']){
 }
 
 if(!isset($_GET['min-multiplicand'])){
-	echo 'Missing parameter min-multiplicand.';
+	echo 'Missing parameter min-multiplicand.<br>';
 	$sMinC = false;
 } else {
 	$sMinC = true;
