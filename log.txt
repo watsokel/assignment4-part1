@@ -1,5 +1,13 @@
 Task Log (CS290, PHP Assignment 4)
 
+Start: Sat, 2 May 2015 13:08:00 -0700
+End: Sat, 2 May 2015 13:09:35 -0700
+Tasks: turned error reporting back on as per professor's instructions on Piazza
+
+Start: Sat, 2 May 2015 12:30:00 -0700
+End: Sat, 2 May 2015 13:05:07 -0700
+Tasks: corrected login.php behavior to redirect logged in user to content1.php
+
 Start: Thu, 30 Apr 2015 15:00:00 -0700
 End: Thu, 30 Apr 2015 17:15:32 -0700
 Tasks: Corrected logic error in loopback.php (placed $_GET in both if construct instead of one $_GET and one $_POST). Fixed the problem with users maintaining the same page visit count in the login/content portion of the assignment.
