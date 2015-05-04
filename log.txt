@@ -1,6 +1,9 @@
 Task Log (CS290, PHP Assignment 4)
 
-Start: Sat, 2 May 2015 13:08:00 -0700
+Start: Sun, 3 May 2015 22:00:00 -0700
+End: Sun, 3 May 2015 22:22:46 -0700
+Tasks: Corrected logic error. Originally used cast to check if input was valid (integer). However, this logic failed when zero was entered. Changed the program to use !is_numeric.
+
 End: Sat, 2 May 2015 13:09:35 -0700
 Tasks: turned error reporting back on as per professor's instructions on Piazza
 
