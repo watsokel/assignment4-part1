@@ -4,7 +4,7 @@ ini_set('display_errors',1);
 
 echo "<h1>Multiplication Table</h1>";
 echo '<p>Programmed by Kelvin Watson</p>';
-	
+
 $eC = $eP = $iMinC = $iMaxC = $iMinP = $iMaxP = $sMinC = $sMaxC = $sMinP = $sMaxP = false;
 
 if($_GET['min-multiplicand'] > $_GET['max-multiplicand']){
@@ -21,28 +21,28 @@ if($_GET['min-multiplier'] > $_GET['max-multiplier']){
 	$eP = true;
 }	
 
-if(!(int)$_GET['min-multiplicand']){
+if(!is_numeric($_GET['min-multiplicand'])){
 	echo 'Minimum multiplicand must be an integer.<br>';
 	$iMinC = false;
 } else {
 	$iMinC = true;
 }
 
-if(!(int)$_GET['max-multiplicand']){
+if(!is_numeric($_GET['max-multiplicand'])){
 	echo 'Maximum multiplicand must be an integer.<br>';
 	$iMaxC = false;
 }else{
 	$iMaxC = true;
 }
 
-if(!(int)$_GET['min-multiplier']){
+if(!is_numeric($_GET['min-multiplier'])){
 	echo 'Minimum multiplier must be an integer.<br>';
 	$iMinP = false;
 } else{
 	$iMinP = true;
 }
 
-if(!(int)$_GET['max-multiplier']){
+if(!is_numeric($_GET['max-multiplier'])){
 	echo 'Maximum multiplier must be an integer.<br>';
 	$iMaxP = false;
 } else {
